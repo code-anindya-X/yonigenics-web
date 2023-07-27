@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import img from "../../images/flat-lay-medical-composition.jpg";
-import "../Navbar.css";
+import "./Navbar.css";
 const Navbar = () => {
 
   const [color,setColor] = useState(false);
@@ -14,17 +14,17 @@ const Navbar = () => {
       setColor(false)
     }
   }
-
+  window.addEventListener('scroll',changeColor);
   return (
     <div>
-      <div onScroll={changeColor}>
+      <div>
         <nav className={color?"navbar navbar-expand-lg navbar-dark fixed-top navbar-scrolled":"navbar navbar-expand-lg navbar-dark fixed-top"}>
-          <div class="container">
-            <a class="navbar-brand" href="#">
+          <div className="container">
+            <a className="navbar-brand" href="#">
               Navbar
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -32,22 +32,22 @@ const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav ms-auto">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
                     Home
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
                     Features
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
                     Pricing
                   </a>
                 </li>
