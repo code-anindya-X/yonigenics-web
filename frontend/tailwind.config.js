@@ -22,7 +22,8 @@ module.exports = {
       "black": "#000",
       "red":"#FF0000",
       "amber-600":"#d97706",
-      "lightgreen":"#a0dbba"
+      "lightgreen":"#a0dbba",
+      "navgreen":"#3a8471",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

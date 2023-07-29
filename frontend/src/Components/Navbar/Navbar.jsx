@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from "../../images/flat-lay-medical-composition.jpg";
+
 import "./Navbar.css";
 const Navbar = () => {
 
@@ -18,10 +18,10 @@ const Navbar = () => {
   return (
     <div>
       <div>
-        <nav className={color?"navbar navbar-expand-lg navbar-dark fixed-top navbar-scrolled":"navbar navbar-expand-lg navbar-dark fixed-top"}>
+        <nav className={color?"navbar navbar-expand-lg navbar-text fixed-top navbar-scrolled":"navbar navbar-expand-lg  fixed-top"}>
           <div className="container">
-            <a className="navbar-brand" href="#">
-              Navbar
+            <a className="navbar-brand " href="#">
+              YONIGENICS
             </a>
             <button
               className="navbar-toggler"
@@ -56,7 +56,7 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      <img src={img} className="bg-img" alt="bg" />
+      
     </div>
   );
 };

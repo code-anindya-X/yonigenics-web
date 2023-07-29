@@ -1,0 +1,30 @@
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index:-1;
+    
+    
+}
+.girl{
+    height: 675px;
+    width: 492px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+
+    
+}
+
+.element{
+   
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+
+}
