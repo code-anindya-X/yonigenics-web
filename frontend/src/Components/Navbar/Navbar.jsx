@@ -21,7 +21,7 @@ const Navbar = () => {
         <nav className={color?"navbar navbar-expand-lg navbar-text fixed-top navbar-scrolled":"navbar navbar-expand-lg  fixed-top"}>
           <div className="container">
             <a className="navbar-brand " href="#">
-              YONIGENICS
+              Yonigenics
             </a>
             <button
               className="navbar-toggler"
@@ -43,12 +43,12 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Features
+                    Blog
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Pricing
+                    About
                   </a>
                 </li>
               </ul>

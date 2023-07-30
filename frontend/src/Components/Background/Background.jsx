@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../images/Artboard 1.jpg";
+import img from "../../images/Yonigenics landing page bg.jpg";
 import ele from "../../images/Untitled-2.png";
 import './Background.css';
 const Background = () => {

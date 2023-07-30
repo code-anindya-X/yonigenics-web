@@ -1,0 +1,17 @@
+.body-text{
+    padding-top: 300px;
+    font-family: Opposit;
+    color: #d07662;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+@font-face {
+    font-family: Opposit;
+    src: url(../../fonts/Opposit-SemiBold.ttf);
+}
+.desc{
+    display: flex;
+    margin-right: 480px;
+    font-family: Monotype Corsiva;
+    color:#4c2e27
+}

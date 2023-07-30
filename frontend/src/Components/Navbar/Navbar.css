@@ -1,11 +1,32 @@
 
-.navbar-brand, .navbar-nav li a{
-    color: #3a8471 !important;
-    
-}
-
-
 .navbar-scrolled{
     background-color: rgba(152, 152, 152,0.5);
     /* box-shadow: 0px 3px 10px rgba(0 0 0 0.15); */
 }
+
+
+
+@font-face {
+    font-family: Auteur;
+    src: url(../../fonts/Up-Up-Creative-Auteur-Script.ttf);
+}
+
+.navbar-brand{
+    font-family:Auteur;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: 550;
+    color: #3a8471 !important;
+    
+}
+
+.nav-item{
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    padding-left: 50px;
+    
+}
+ .nav-link{
+    color: #4c2e27 !important;
+ }

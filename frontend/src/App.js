@@ -1,5 +1,6 @@
 
 import Background from './Components/Background/Background';
+import FrontBody from './Components/FrontBody/FrontBody';
 import Navbar from './Components/Navbar/Navbar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
     <Background/>
     <Navbar></Navbar>
+    <FrontBody/>
     </div>
   );
 }
